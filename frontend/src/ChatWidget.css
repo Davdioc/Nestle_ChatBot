@@ -220,6 +220,13 @@
   margin-bottom: 4px; /* Create space between text and time */
 }
 
+/* BOT STYLE */
+.bot-bubble {
+  background-color: #4E2A1E; /* Nestlé blue */
+  color: white;
+  border-top-left-radius: 0;
+}
+
 /* Avatars */
 .msg-avatar {
   width: 24px;
