@@ -241,7 +241,7 @@ function ChatWidget({ label = 'Quicky' }) {
       )}
       {showPreview && !isOpen && (
         <div className="preview-wrapper">
-          <div className="preview-bubble">
+          <div className="preview-bubble" onClick={toggleChat}>
             {typedWelcome}
           </div>
           <span className="preview-close-outside" onClick={() => setShowPreview(false)}>×</span>
